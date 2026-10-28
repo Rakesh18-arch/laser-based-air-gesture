@@ -1,0 +1,792 @@
+[2026-10-27 23:45:46.904] Radial menu opened: page='main', cursor=(169.32565307617188, 505.15435791015625)
+[2026-10-27 23:45:54.668] Radial menu action requested: 'Pen' on page 'main'
+[2026-10-27 23:45:54.671] Radial menu action completed: 'Pen'
+[2026-10-27 23:45:54.672] ON->OFF action executed at (323,733); board=True; menu_open=False
+[2026-10-27 23:46:02.642] Radial menu opened: page='main', cursor=(517.0563354492188, 355.99945068359375)
+[2026-10-27 23:46:07.993] Radial menu action requested: 'Pen' on page 'main'
+[2026-10-27 23:46:07.994] Radial menu action completed: 'Pen'
+[2026-10-27 23:46:07.995] ON->OFF action executed at (793,533); board=True; menu_open=False
+[2026-10-27 23:46:10.746] ON->OFF action executed at (11,5); board=True; menu_open=False
+[2026-10-27 23:46:17.326] Radial menu opened: page='main', cursor=(642.9358520507812, 268.09405517578125)
+[2026-10-27 23:46:26.436] Radial menu action requested: 'Pen' on page 'main'
+[2026-10-27 23:46:26.438] Radial menu action completed: 'Pen'
+[2026-10-27 23:46:26.438] ON->OFF action executed at (966,387); board=True; menu_open=False
+[2026-10-27 23:46:44.539] Radial menu opened: page='main', cursor=(192.71646118164062, 377.01495361328125)
+[2026-10-27 23:46:53.145] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:46:53.145] Radial menu opened: page='more', cursor=(192.71646118164062, 377.01495361328125)
+[2026-10-27 23:46:53.146] Radial menu action completed: 'More'
+[2026-10-27 23:46:53.148] ON->OFF action executed at (140,428); board=True; menu_open=True
+[2026-10-27 23:47:00.946] Radial menu action requested: 'Color' on page 'more'
+[2026-10-27 23:47:00.946] Radial menu opened: page='color', cursor=(202, 377.01495361328125)
+[2026-10-27 23:47:00.948] Radial menu action completed: 'Color'
+[2026-10-27 23:47:00.949] ON->OFF action executed at (371,720); board=True; menu_open=True
+[2026-10-27 23:47:05.871] Radial menu action requested: 'Red' on page 'color'
+[2026-10-27 23:47:05.872] Radial menu action completed: 'Red'
+[2026-10-27 23:47:05.872] ON->OFF action executed at (367,380); board=True; menu_open=False
+[2026-10-27 23:47:27.099] Radial menu opened: page='main', cursor=(170.7411346435547, 441.6988525390625)
+[2026-10-27 23:47:36.611] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:47:36.611] Radial menu opened: page='more', cursor=(170.7411346435547, 441.6988525390625)
+[2026-10-27 23:47:36.613] Radial menu action completed: 'More'
+[2026-10-27 23:47:36.613] ON->OFF action executed at (101,506); board=True; menu_open=True
+[2026-10-27 23:47:43.626] Radial menu action requested: 'Pages' on page 'more'
+[2026-10-27 23:47:43.627] Radial menu opened: page='pages', cursor=(202, 441.6988525390625)
+[2026-10-27 23:47:43.628] Radial menu action completed: 'Pages'
+[2026-10-27 23:47:43.629] ON->OFF action executed at (49,665); board=True; menu_open=True
+[2026-10-27 23:47:51.568] Radial menu action requested: 'New page' on page 'pages'
+[2026-10-27 23:47:51.569] Radial menu action completed: 'New page'
+[2026-10-27 23:47:51.570] ON->OFF action executed at (246,743); board=True; menu_open=False
+[2026-10-27 23:48:13.564] Radial menu opened: page='main', cursor=(803.5439453125, 211.89389038085938)
+[2026-10-27 23:48:21.459] Radial menu action requested: 'Pen' on page 'main'
+[2026-10-27 23:48:21.460] Radial menu action completed: 'Pen'
+[2026-10-27 23:48:21.460] ON->OFF action executed at (1158,342); board=True; menu_open=False
+[2026-10-27 23:48:47.579] Radial menu opened: page='main', cursor=(294.09576416015625, 542.314453125)
+[2026-10-27 23:49:01.003] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:49:01.003] Radial menu opened: page='more', cursor=(294.09576416015625, 542.314453125)
+[2026-10-27 23:49:01.005] Radial menu action completed: 'More'
+[2026-10-27 23:49:01.005] ON->OFF action executed at (239,634); board=True; menu_open=True
+[2026-10-27 23:49:07.264] Radial menu action requested: 'Color' on page 'more'
+[2026-10-27 23:49:07.265] Radial menu opened: page='color', cursor=(294.09576416015625, 542.314453125)
+[2026-10-27 23:49:07.266] Radial menu action completed: 'Color'
+[2026-10-27 23:49:07.267] ON->OFF action executed at (464,925); board=True; menu_open=True
+[2026-10-27 23:49:20.423] Radial menu action requested: 'Yellow' on page 'color'
+[2026-10-27 23:49:20.424] Radial menu action completed: 'Yellow'
+[2026-10-27 23:49:20.425] ON->OFF action executed at (427,935); board=True; menu_open=False
+[2026-10-27 23:49:28.525] Radial menu opened: page='main', cursor=(969.1436767578125, 504.103271484375)
+[2026-10-27 23:49:34.746] Radial menu action requested: 'Shapes' on page 'main'
+[2026-10-27 23:49:34.747] Radial menu opened: page='shapes', cursor=(969.1436767578125, 504.103271484375)
+[2026-10-27 23:49:34.748] Radial menu action completed: 'Shapes'
+[2026-10-27 23:49:34.749] ON->OFF action executed at (1196,835); board=True; menu_open=True
+[2026-10-27 23:49:41.162] Radial menu action requested: 'Ellipse' on page 'shapes'
+[2026-10-27 23:49:41.163] Radial menu action completed: 'Ellipse'
+[2026-10-27 23:49:41.164] ON->OFF action executed at (1362,697); board=True; menu_open=False
+[2026-10-27 23:49:58.847] Radial menu opened: page='main', cursor=(385.24169921875, 600.1388549804688)
+[2026-10-27 23:50:09.707] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:50:09.708] Radial menu opened: page='more', cursor=(385.24169921875, 600.1388549804688)
+[2026-10-27 23:50:09.709] Radial menu action completed: 'More'
+[2026-10-27 23:50:09.710] ON->OFF action executed at (338,715); board=True; menu_open=True
+[2026-10-27 23:50:22.874] Radial menu action requested: 'Highlight' on page 'more'
+[2026-10-27 23:50:22.875] Radial menu action completed: 'Highlight'
+[2026-10-27 23:50:22.875] ON->OFF action executed at (622,685); board=True; menu_open=False
+[2026-10-27 23:50:32.451] Radial menu opened: page='main', cursor=(1087.11865234375, 571.4833984375)
+[2026-10-27 23:50:46.767] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:50:46.767] Radial menu opened: page='more', cursor=(1087.11865234375, 571.4833984375)
+[2026-10-27 23:50:46.770] Radial menu action completed: 'More'
+[2026-10-27 23:50:46.770] ON->OFF action executed at (1280,662); board=True; menu_open=True
+[2026-10-27 23:50:51.095] Radial menu action requested: 'Pages' on page 'more'
+[2026-10-27 23:50:51.096] Radial menu opened: page='pages', cursor=(1087.11865234375, 571.4833984375)
+[2026-10-27 23:50:51.097] Radial menu action completed: 'Pages'
+[2026-10-27 23:50:51.098] ON->OFF action executed at (1185,831); board=True; menu_open=True
+[2026-10-27 23:50:58.849] Radial menu action requested: 'Back' on page 'pages'
+[2026-10-27 23:50:58.850] Radial menu opened: page='more', cursor=(1087.11865234375, 571.4833984375)
+[2026-10-27 23:50:58.851] Radial menu action completed: 'Back'
+[2026-10-27 23:50:58.851] ON->OFF action executed at (1236,783); board=True; menu_open=True
+[2026-10-27 23:51:05.794] Radial menu action requested: 'Pages' on page 'more'
+[2026-10-27 23:51:05.794] Radial menu opened: page='pages', cursor=(1087.11865234375, 571.4833984375)
+[2026-10-27 23:51:05.796] Radial menu action completed: 'Pages'
+[2026-10-27 23:51:05.797] ON->OFF action executed at (1174,862); board=True; menu_open=True
+[2026-10-27 23:51:10.925] Radial menu action requested: 'New page' on page 'pages'
+[2026-10-27 23:51:10.926] Radial menu action completed: 'New page'
+[2026-10-27 23:51:10.927] ON->OFF action executed at (1388,896); board=True; menu_open=False
+[2026-10-27 23:51:18.545] Radial menu opened: page='main', cursor=(199.3008270263672, 534.1724853515625)
+[2026-10-27 23:51:32.031] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:51:32.032] Radial menu opened: page='more', cursor=(199.3008270263672, 534.1724853515625)
+[2026-10-27 23:51:32.034] Radial menu action completed: 'More'
+[2026-10-27 23:51:32.034] ON->OFF action executed at (114,627); board=True; menu_open=True
+[2026-10-27 23:51:42.565] Radial menu action requested: 'Pages' on page 'more'
+[2026-10-27 23:51:42.566] Radial menu opened: page='pages', cursor=(202, 534.1724853515625)
+[2026-10-27 23:51:42.567] Radial menu action completed: 'Pages'
+[2026-10-27 23:51:42.568] ON->OFF action executed at (74,799); board=True; menu_open=True
+[2026-10-27 23:51:45.266] Radial menu action requested: 'Previous page' on page 'pages'
+[2026-10-27 23:51:45.267] Radial menu action completed: 'Previous page'
+[2026-10-27 23:51:45.268] ON->OFF action executed at (299,625); board=True; menu_open=False
+[2026-10-27 23:52:16.091] Radial menu opened: page='main', cursor=(192.58074951171875, 706.9482421875)
+[2026-10-27 23:52:28.643] ON->OFF menu selection rejected at (291,905); hover=None; dwell=None
+[2026-10-27 23:52:35.939] Radial menu action requested: 'Eraser' on page 'main'
+[2026-10-27 23:52:35.940] Radial menu action completed: 'Eraser'
+[2026-10-27 23:52:35.941] ON->OFF action executed at (346,983); board=True; menu_open=False
+[2026-10-27 23:53:33.918] Radial menu opened: page='main', cursor=(336.45452880859375, 557.0738525390625)
+[2026-10-27 23:53:43.453] ON->OFF menu selection rejected at (245,676); hover=None; dwell=None
+[2026-10-27 23:53:48.904] ON->OFF menu selection rejected at (231,679); hover=None; dwell=None
+[2026-10-27 23:53:54.453] ON->OFF menu selection rejected at (239,659); hover=None; dwell=None
+[2026-10-27 23:54:00.323] ON->OFF menu selection rejected at (102,821); hover=None; dwell=None
+[2026-10-27 23:54:04.971] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:54:04.972] Radial menu opened: page='more', cursor=(336.45452880859375, 557.0738525390625)
+[2026-10-27 23:54:04.974] Radial menu action completed: 'More'
+[2026-10-27 23:54:04.974] ON->OFF action executed at (266,647); board=True; menu_open=True
+[2026-10-27 23:54:26.449] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-27 23:54:26.450] Radial menu action completed: 'Smart Write'
+[2026-10-27 23:54:26.450] ON->OFF action executed at (412,616); board=True; menu_open=False
+[2026-10-27 23:55:26.849] Radial menu opened: page='main', cursor=(1088.601806640625, 220.40829467773438)
+[2026-10-27 23:55:35.053] ON->OFF menu selection rejected at (1639,358); hover=None; dwell=None
+[2026-10-27 23:55:43.892] Radial menu action requested: 'Eraser' on page 'main'
+[2026-10-27 23:55:43.893] Radial menu action completed: 'Eraser'
+[2026-10-27 23:55:43.894] ON->OFF action executed at (1470,454); board=True; menu_open=False
+[2026-10-27 23:55:48.050] Radial menu opened: page='main', cursor=(695.1460571289062, 408.2022705078125)
+[2026-10-27 23:55:56.349] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:55:56.350] Radial menu opened: page='more', cursor=(695.1460571289062, 408.2022705078125)
+[2026-10-27 23:55:56.352] Radial menu action completed: 'More'
+[2026-10-27 23:55:56.352] ON->OFF action executed at (769,470); board=True; menu_open=True
+[2026-10-27 23:56:05.262] ON->OFF menu selection rejected at (1225,5); hover=None; dwell=None
+[2026-10-27 23:56:11.903] ON->OFF menu selection rejected at (934,372); hover=None; dwell=None
+[2026-10-27 23:56:15.112] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-27 23:56:15.114] Radial menu action completed: 'Smart Write'
+[2026-10-27 23:56:15.114] ON->OFF action executed at (874,375); board=True; menu_open=False
+[2026-10-27 23:56:27.629] Radial menu opened: page='main', cursor=(420.45428466796875, 384.74432373046875)
+[2026-10-27 23:56:55.365] Radial menu action requested: 'Drag' on page 'main'
+[2026-10-27 23:56:55.367] Radial menu action completed: 'Drag'
+[2026-10-27 23:56:55.368] ON->OFF action executed at (661,459); board=True; menu_open=False
+[2026-10-27 23:57:37.260] Radial menu opened: page='main', cursor=(217.26434326171875, 284.144775390625)
+[2026-10-27 23:57:44.024] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:57:44.026] Radial menu opened: page='more', cursor=(217.26434326171875, 284.144775390625)
+[2026-10-27 23:57:44.028] Radial menu action completed: 'More'
+[2026-10-27 23:57:44.028] ON->OFF action executed at (148,315); board=True; menu_open=True
+[2026-10-27 23:57:47.977] ON->OFF menu selection rejected at (5,640); hover=None; dwell=None
+[2026-10-27 23:57:54.216] Radial menu action requested: 'Highlight' on page 'more'
+[2026-10-27 23:57:54.217] Radial menu action completed: 'Highlight'
+[2026-10-27 23:57:54.217] ON->OFF action executed at (427,309); board=True; menu_open=False
+[2026-10-27 23:57:57.689] Radial menu opened: page='main', cursor=(174.4259490966797, 182.76181030273438)
+[2026-10-27 23:58:03.845] Radial menu action requested: 'More' on page 'main'
+[2026-10-27 23:58:03.847] Radial menu opened: page='more', cursor=(174.4259490966797, 182.76181030273438)
+[2026-10-27 23:58:03.849] Radial menu action completed: 'More'
+[2026-10-27 23:58:03.849] ON->OFF action executed at (132,181); board=True; menu_open=True
+[2026-10-27 23:58:07.463] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-27 23:58:07.464] Radial menu action completed: 'Smart Write'
+[2026-10-27 23:58:07.466] ON->OFF action executed at (216,167); board=True; menu_open=False
+[2026-10-27 23:58:20.210] Radial menu opened: page='main', cursor=(362.3705749511719, 397.17559814453125)
+[2026-10-27 23:58:31.170] Radial menu action requested: 'Undo' on page 'main'
+[2026-10-27 23:58:31.175] Radial menu action completed: 'Undo'
+[2026-10-27 23:58:31.176] ON->OFF action executed at (331,639); board=True; menu_open=False
+[2026-10-28 00:00:09.291] Radial menu opened: page='main', cursor=(676.801513671875, 311.55517578125)
+[2026-10-28 00:00:12.105] ON->OFF menu selection rejected at (1053,5); hover=None; dwell=None
+[2026-10-28 00:00:15.652] ON->OFF menu selection rejected at (789,470); hover=None; dwell=None
+[2026-10-28 00:00:18.225] ON->OFF menu selection rejected at (681,540); hover=None; dwell=None
+[2026-10-28 00:00:22.541] Radial menu action requested: 'Undo' on page 'main'
+[2026-10-28 00:00:22.547] Radial menu action completed: 'Undo'
+[2026-10-28 00:00:22.548] ON->OFF action executed at (752,517); board=True; menu_open=False
+[2026-10-28 00:11:59.848] Radial menu opened: page='main', cursor=(916.9265747070312, 758.758544921875)
+[2026-10-28 00:12:11.212] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:12:11.214] Radial menu opened: page='more', cursor=(916.9265747070312, 638)
+[2026-10-28 00:12:11.216] Radial menu action completed: 'More'
+[2026-10-28 00:12:11.217] ON->OFF action executed at (1030,746); board=True; menu_open=True
+[2026-10-28 00:12:15.510] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-28 00:12:15.512] Radial menu opened: page='smartwrite', cursor=(916.9265747070312, 606)
+[2026-10-28 00:12:15.513] Radial menu action completed: 'Smart Write'
+[2026-10-28 00:12:15.514] ON->OFF action executed at (1142,615); board=True; menu_open=True
+[2026-10-28 00:12:33.134] Radial menu action requested: 'Swipe Type' on page 'smartwrite'
+[2026-10-28 00:12:33.407] Radial menu action completed: 'Swipe Type'
+[2026-10-28 00:12:33.408] ON->OFF action executed at (1252,825); board=True; menu_open=False
+[2026-10-28 00:15:18.752] ON->OFF action executed at (498,7); board=True; menu_open=False
+[2026-10-28 00:15:19.703] ON->OFF action executed at (5,24); board=True; menu_open=False
+[2026-10-28 00:26:37.815] Radial menu opened: page='main', cursor=(251.342529296875, 577.810302734375)
+[2026-10-28 00:26:53.065] Radial menu action requested: 'Pen' on page 'main'
+[2026-10-28 00:26:53.066] Radial menu action completed: 'Pen'
+[2026-10-28 00:26:53.067] ON->OFF action executed at (468,750); board=True; menu_open=False
+[2026-10-28 00:27:13.566] Radial menu opened: page='main', cursor=(224.25567626953125, 296.63775634765625)
+[2026-10-28 00:27:24.907] Radial menu action requested: 'Cursor' on page 'main'
+[2026-10-28 00:27:24.908] Radial menu action completed: 'Cursor'
+[2026-10-28 00:27:24.909] ON->OFF action executed at (264,238); board=True; menu_open=False
+[2026-10-28 00:27:28.856] ON->OFF action executed at (524,610); board=True; menu_open=False
+[2026-10-28 00:27:32.277] Radial menu opened: page='main', cursor=(290.15423583984375, 384.0776672363281)
+[2026-10-28 00:27:47.190] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:27:47.191] Radial menu opened: page='more', cursor=(290.15423583984375, 384.0776672363281)
+[2026-10-28 00:27:47.193] Radial menu action completed: 'More'
+[2026-10-28 00:27:47.194] ON->OFF action executed at (246,397); board=True; menu_open=True
+[2026-10-28 00:27:53.585] Radial menu action requested: 'Pages' on page 'more'
+[2026-10-28 00:27:53.586] Radial menu opened: page='pages', cursor=(290.15423583984375, 384.0776672363281)
+[2026-10-28 00:27:53.587] Radial menu action completed: 'Pages'
+[2026-10-28 00:27:53.588] ON->OFF action executed at (177,578); board=True; menu_open=True
+[2026-10-28 00:27:58.026] Radial menu action requested: 'New page' on page 'pages'
+[2026-10-28 00:27:58.028] Radial menu action completed: 'New page'
+[2026-10-28 00:27:58.029] ON->OFF action executed at (343,676); board=True; menu_open=False
+[2026-10-28 00:28:01.330] Radial menu opened: page='main', cursor=(496.9334716796875, 466.8052978515625)
+[2026-10-28 00:28:09.099] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:28:09.099] Radial menu opened: page='more', cursor=(496.9334716796875, 466.8052978515625)
+[2026-10-28 00:28:09.101] Radial menu action completed: 'More'
+[2026-10-28 00:28:09.102] ON->OFF action executed at (489,478); board=True; menu_open=True
+[2026-10-28 00:28:12.398] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-28 00:28:12.400] Radial menu opened: page='smartwrite', cursor=(496.9334716796875, 466.8052978515625)
+[2026-10-28 00:28:12.402] Radial menu action completed: 'Smart Write'
+[2026-10-28 00:28:12.404] ON->OFF action executed at (573,450); board=True; menu_open=True
+[2026-10-28 00:28:17.508] Radial menu action requested: 'Swipe Type' on page 'smartwrite'
+[2026-10-28 00:28:17.672] Radial menu action completed: 'Swipe Type'
+[2026-10-28 00:28:17.673] ON->OFF action executed at (730,647); board=True; menu_open=False
+[2026-10-28 00:30:57.481] Radial menu opened: page='main', cursor=(665.4915161132812, 274.74359130859375)
+[2026-10-28 00:31:10.176] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:31:10.177] Radial menu opened: page='more', cursor=(665.4915161132812, 274.74359130859375)
+[2026-10-28 00:31:10.179] Radial menu action completed: 'More'
+[2026-10-28 00:31:10.180] ON->OFF action executed at (674,251); board=True; menu_open=True
+[2026-10-28 00:31:13.476] Radial menu action requested: 'Files' on page 'more'
+[2026-10-28 00:31:13.477] Radial menu opened: page='files', cursor=(665.4915161132812, 274.74359130859375)
+[2026-10-28 00:31:13.479] Radial menu action completed: 'Files'
+[2026-10-28 00:31:13.480] ON->OFF action executed at (647,343); board=True; menu_open=True
+[2026-10-28 00:31:22.168] Radial menu action requested: 'Close Board' on page 'files'
+[2026-10-28 00:31:22.197] Radial menu action completed: 'Close Board'
+[2026-10-28 00:31:22.198] ON->OFF action executed at (681,459); board=False; menu_open=False
+[2026-10-28 00:31:29.531] ON->OFF action executed at (5,88); board=False; menu_open=False
+[2026-10-28 00:31:35.123] ON->OFF action executed at (1785,5); board=False; menu_open=False
+[2026-10-28 00:31:39.328] ON->OFF action executed at (1847,5); board=False; menu_open=False
+[2026-10-28 00:31:43.316] ON->OFF action executed at (1650,53); board=False; menu_open=False
+[2026-10-28 00:31:47.069] ON->OFF action executed at (1707,5); board=False; menu_open=False
+[2026-10-28 00:31:51.660] ON->OFF action executed at (1736,11); board=False; menu_open=False
+[2026-10-28 00:31:56.915] ON->OFF action executed at (1323,6); board=False; menu_open=False
+[2026-10-28 00:31:59.868] ON->OFF action executed at (1323,5); board=False; menu_open=False
+[2026-10-28 00:32:06.895] ON->OFF action executed at (1432,5); board=False; menu_open=False
+[2026-10-28 00:32:10.332] ON->OFF action executed at (1036,37); board=False; menu_open=False
+[2026-10-28 00:32:15.388] ON->OFF action executed at (128,299); board=False; menu_open=False
+[2026-10-28 00:32:17.756] ON->OFF action executed at (25,405); board=False; menu_open=False
+[2026-10-28 00:32:22.296] ON->OFF action executed at (104,388); board=False; menu_open=False
+[2026-10-28 00:32:23.415] ON->OFF action executed at (254,325); board=False; menu_open=False
+[2026-10-28 00:32:27.252] ON->OFF action executed at (757,1074); board=False; menu_open=False
+[2026-10-28 00:32:39.381] ON->OFF action executed at (5,249); board=False; menu_open=False
+[2026-10-28 00:32:44.837] ON->OFF action executed at (1914,1074); board=False; menu_open=False
+[2026-10-28 00:32:47.507] ON->OFF action executed at (746,385); board=False; menu_open=False
+[2026-10-28 00:44:12.966] Radial menu opened: page='main', cursor=(299.40704345703125, 373.67279052734375)
+[2026-10-28 00:44:22.215] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:44:22.217] Radial menu opened: page='more', cursor=(299.40704345703125, 373.67279052734375)
+[2026-10-28 00:44:22.219] Radial menu action completed: 'More'
+[2026-10-28 00:44:22.219] ON->OFF action accepted at (233,391); detail=internal-action; board=True; menu_open=True
+[2026-10-28 00:44:25.862] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-28 00:44:25.864] Radial menu opened: page='smartwrite', cursor=(299.40704345703125, 373.67279052734375)
+[2026-10-28 00:44:25.868] Radial menu action completed: 'Smart Write'
+[2026-10-28 00:44:25.870] ON->OFF action accepted at (368,333); detail=internal-action; board=True; menu_open=True
+[2026-10-28 00:44:31.877] Radial menu action requested: 'Swipe Type' on page 'smartwrite'
+[2026-10-28 00:44:32.023] Radial menu action completed: 'Swipe Type'
+[2026-10-28 00:44:32.024] ON->OFF action accepted at (489,539); detail=internal-action; board=True; menu_open=False
+[2026-10-28 00:44:38.331] Swipe Type dwell accepted 'A' after 1.0s
+[2026-10-28 00:44:41.552] Swipe Type dwell accepted 'B' after 1.0s
+[2026-10-28 00:44:43.405] Swipe Type dwell accepted 'H' after 1.0s
+[2026-10-28 00:44:44.909] Swipe Type dwell accepted 'I' after 1.0s
+[2026-10-28 00:44:53.799] Swipe Type dwell accepted 'Space' after 1.0s
+[2026-10-28 00:44:57.399] Swipe Type dwell accepted 'Enter' after 1.0s
+[2026-10-28 00:44:59.354] Swipe Type dwell accepted 'V' after 1.0s
+[2026-10-28 00:45:02.183] Swipe Type dwell accepted 'I' after 1.0s
+[2026-10-28 00:45:05.696] Swipe Type dwell accepted 'S' after 1.0s
+[2026-10-28 00:45:08.400] Swipe Type dwell accepted 'H' after 1.0s
+[2026-10-28 00:45:10.858] Swipe Type dwell accepted 'N' after 1.0s
+[2026-10-28 00:45:13.272] Swipe Type dwell accepted 'U' after 1.0s
+[2026-10-28 00:45:20.963] Swipe Type dwell accepted 'I' after 1.0s
+[2026-10-28 00:45:24.522] Swipe Type dwell accepted 'S' after 1.0s
+[2026-10-28 00:45:27.586] Swipe Type dwell accepted 'A' after 1.0s
+[2026-10-28 00:45:31.009] Swipe Type dwell accepted 'G' after 1.0s
+[2026-10-28 00:45:33.468] Swipe Type dwell accepted 'O' after 1.0s
+[2026-10-28 00:45:35.806] Swipe Type dwell accepted 'O' after 1.0s
+[2026-10-28 00:45:38.193] Swipe Type dwell accepted 'D' after 1.0s
+[2026-10-28 00:45:40.595] Swipe Type dwell accepted 'B' after 1.0s
+[2026-10-28 00:45:43.717] Swipe Type dwell accepted 'O' after 1.0s
+[2026-10-28 00:45:46.008] Swipe Type dwell accepted 'Y' after 1.0s
+[2026-10-28 00:45:55.903] Radial menu opened: page='main', cursor=(472.2450256347656, 292.4788818359375)
+[2026-10-28 00:46:10.781] Radial menu action requested: 'Cursor' on page 'main'
+[2026-10-28 00:46:10.782] Radial menu action completed: 'Cursor'
+[2026-10-28 00:46:10.783] ON->OFF action accepted at (612,261); detail=internal-action; board=True; menu_open=False
+[2026-10-28 00:46:12.431] ON->OFF action accepted at (948,268); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:46:13.196] Desktop left-click executed at (948,268)
+[2026-10-28 00:46:17.052] ON->OFF action accepted at (1765,14); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:46:17.783] Desktop left-click executed at (1765,14)
+[2026-10-28 00:46:18.635] ON->OFF action accepted at (1795,5); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:46:19.386] Desktop left-click executed at (1795,5)
+[2026-10-28 00:46:19.913] ON->OFF action accepted at (1666,77); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:46:20.653] Desktop left-click executed at (1666,77)
+[2026-10-28 00:46:25.289] ON->OFF action accepted at (1467,5); detail=internal-action; board=False; menu_open=False
+[2026-10-28 00:46:30.576] ON->OFF action accepted at (1046,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:31.297] Desktop left-click executed at (1046,5)
+[2026-10-28 00:46:36.250] ON->OFF action accepted at (1391,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:36.986] Desktop left-click executed at (1391,5)
+[2026-10-28 00:46:44.219] ON->OFF action accepted at (164,333); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:44.980] Desktop left-click executed at (164,333)
+[2026-10-28 00:46:45.277] ON->OFF action accepted at (72,336); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:46.014] Desktop left-click executed at (72,336)
+[2026-10-28 00:46:46.885] ON->OFF action accepted at (147,369); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:47.649] Desktop left-click executed at (147,369)
+[2026-10-28 00:46:48.468] ON->OFF action accepted at (154,345); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:49.251] Desktop left-click executed at (154,345)
+[2026-10-28 00:46:50.580] ON->OFF action accepted at (142,393); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:51.336] Desktop left-click executed at (142,393)
+[2026-10-28 00:46:52.740] ON->OFF action accepted at (359,366); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:46:53.473] Desktop left-click executed at (359,366)
+[2026-10-28 00:47:07.323] ON->OFF action accepted at (106,385); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:08.089] Desktop left-click executed at (106,385)
+[2026-10-28 00:47:08.895] ON->OFF action accepted at (222,312); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:09.640] Desktop left-click executed at (222,312)
+[2026-10-28 00:47:12.917] ON->OFF action accepted at (154,350); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:13.695] Desktop left-click executed at (154,350)
+[2026-10-28 00:47:14.131] ON->OFF action accepted at (60,378); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:14.879] Desktop left-click executed at (60,378)
+[2026-10-28 00:47:15.393] ON->OFF action accepted at (149,323); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:16.130] Desktop left-click executed at (149,323)
+[2026-10-28 00:47:16.424] ON->OFF action accepted at (29,317); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:17.147] Desktop left-click executed at (29,317)
+[2026-10-28 00:47:20.347] ON->OFF action accepted at (142,375); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:21.086] Desktop left-click executed at (142,375)
+[2026-10-28 00:47:31.551] ON->OFF action accepted at (55,445); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:32.316] Desktop left-click executed at (55,445)
+[2026-10-28 00:47:32.811] ON->OFF action accepted at (59,508); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:33.567] Desktop left-click executed at (59,508)
+[2026-10-28 00:47:33.898] ON->OFF action accepted at (156,321); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:34.636] Desktop left-click executed at (156,321)
+[2026-10-28 00:47:35.109] ON->OFF action accepted at (84,360); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:35.852] Desktop left-click executed at (84,360)
+[2026-10-28 00:47:36.053] ON->OFF action accepted at (101,394); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:36.802] Desktop left-click executed at (101,394)
+[2026-10-28 00:47:37.524] ON->OFF action accepted at (5,388); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:38.271] Desktop left-click executed at (5,388)
+[2026-10-28 00:47:38.310] ON->OFF action accepted at (5,403); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:39.035] Desktop left-click executed at (5,403)
+[2026-10-28 00:47:41.324] ON->OFF action accepted at (150,381); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:42.109] Desktop left-click executed at (150,381)
+[2026-10-28 00:47:42.254] ON->OFF action accepted at (160,336); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:42.993] Desktop left-click executed at (160,336)
+[2026-10-28 00:47:45.146] ON->OFF action accepted at (184,343); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:45.880] Desktop left-click executed at (184,343)
+[2026-10-28 00:47:46.953] ON->OFF action accepted at (85,339); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:47.700] Desktop left-click executed at (85,339)
+[2026-10-28 00:47:47.901] ON->OFF action accepted at (181,311); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:48.683] Desktop left-click executed at (181,311)
+[2026-10-28 00:47:48.888] ON->OFF action accepted at (121,327); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:49.617] Desktop left-click executed at (121,327)
+[2026-10-28 00:47:49.684] ON->OFF action accepted at (110,329); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:50.451] Desktop left-click executed at (110,329)
+[2026-10-28 00:47:53.313] ON->OFF action accepted at (31,457); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:54.089] Desktop left-click executed at (31,457)
+[2026-10-28 00:47:54.813] ON->OFF action accepted at (80,418); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:55.558] Desktop left-click executed at (80,418)
+[2026-10-28 00:47:57.310] ON->OFF action accepted at (96,402); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:47:58.059] Desktop left-click executed at (96,402)
+[2026-10-28 00:47:59.413] ON->OFF action accepted at (470,110); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:48:00.146] Desktop left-click executed at (470,110)
+[2026-10-28 00:48:01.727] ON->OFF action accepted at (1038,737); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:48:02.465] Desktop left-click executed at (1038,737)
+[2026-10-28 00:48:04.979] ON->OFF action accepted at (995,808); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:48:05.736] Desktop left-click executed at (995,808)
+[2026-10-28 00:51:47.553] Radial menu opened: page='main', cursor=(858.280029296875, 382.37060546875)
+[2026-10-28 00:51:54.754] Radial menu action requested: 'More' on page 'main'
+[2026-10-28 00:51:54.755] Radial menu opened: page='more', cursor=(858.280029296875, 382.37060546875)
+[2026-10-28 00:51:54.757] Radial menu action completed: 'More'
+[2026-10-28 00:51:54.758] ON->OFF action accepted at (940,389); detail=internal-action; board=True; menu_open=True
+[2026-10-28 00:51:57.850] Radial menu action requested: 'Smart Write' on page 'more'
+[2026-10-28 00:51:57.852] Radial menu opened: page='smartwrite', cursor=(858.280029296875, 382.37060546875)
+[2026-10-28 00:51:57.855] Radial menu action completed: 'Smart Write'
+[2026-10-28 00:51:57.857] ON->OFF action accepted at (1073,346); detail=internal-action; board=True; menu_open=True
+[2026-10-28 00:52:01.931] Radial menu action requested: 'Swipe Type' on page 'smartwrite'
+[2026-10-28 00:52:02.130] Radial menu action completed: 'Swipe Type'
+[2026-10-28 00:52:02.131] ON->OFF action accepted at (1198,532); detail=internal-action; board=True; menu_open=False
+[2026-10-28 00:52:07.887] Swipe Type dwell accepted 'A' after 1.0s
+[2026-10-28 00:52:10.306] Swipe Type dwell accepted 'B' after 1.0s
+[2026-10-28 00:52:12.068] Swipe Type dwell accepted 'H' after 1.0s
+[2026-10-28 00:52:13.923] Swipe Type dwell accepted 'I' after 1.0s
+[2026-10-28 00:52:17.610] Swipe Type dwell accepted 'Space' after 1.0s
+[2026-10-28 00:52:19.236] Swipe Type dwell accepted 'C' after 1.0s
+[2026-10-28 00:52:21.367] Swipe Type dwell accepted 'A' after 1.0s
+[2026-10-28 00:52:23.885] Swipe Type dwell accepted 'T' after 1.0s
+[2026-10-28 00:52:27.275] Swipe Type dwell accepted 'Space' after 1.0s
+[2026-10-28 00:52:29.752] Swipe Type dwell accepted 'V' after 1.0s
+[2026-10-28 00:52:34.439] Swipe Type dwell accepted 'vishnu' after 0.7s
+[2026-10-28 00:52:40.367] Radial menu opened: page='main', cursor=(690.313720703125, 260.47344970703125)
+[2026-10-28 00:52:47.179] Radial menu action requested: 'Cursor' on page 'main'
+[2026-10-28 00:52:47.180] Radial menu action completed: 'Cursor'
+[2026-10-28 00:52:47.181] ON->OFF action accepted at (867,197); detail=internal-action; board=True; menu_open=False
+[2026-10-28 00:52:49.196] Single ON->OFF cycle queued at (1434.0,172.0)
+[2026-10-28 00:52:49.208] ON->OFF action accepted at (1434,172); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:52:50.233] Desktop left-click executed at (1434,172)
+[2026-10-28 00:52:53.677] Radial menu opened: page='main', cursor=(768.0, 404.0)
+[2026-10-28 00:52:53.679] ON->OFF action accepted at (1348,5); detail=internal-action; board=True; menu_open=True
+[2026-10-28 00:53:00.009] Radial menu action requested: 'Cursor' on page 'main'
+[2026-10-28 00:53:00.011] Radial menu action completed: 'Cursor'
+[2026-10-28 00:53:00.011] ON->OFF action accepted at (969,359); detail=internal-action; board=True; menu_open=False
+[2026-10-28 00:53:10.384] Single ON->OFF cycle queued at (1771.0,5.0)
+[2026-10-28 00:53:10.385] ON->OFF action accepted at (1771,5); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:53:11.390] Desktop left-click executed at (1771,5)
+[2026-10-28 00:53:11.669] Single ON->OFF cycle queued at (1914.0,41.0)
+[2026-10-28 00:53:11.670] ON->OFF action accepted at (1914,41); detail=left-click-pending; board=True; menu_open=False
+[2026-10-28 00:53:12.676] Desktop left-click executed at (1914,41)
+[2026-10-28 00:53:19.631] ON->OFF action accepted at (1475,8); detail=internal-action; board=False; menu_open=False
+[2026-10-28 00:53:21.113] Single ON->OFF cycle queued at (1476.0,5.0)
+[2026-10-28 00:53:21.114] ON->OFF action accepted at (1476,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:22.118] Desktop left-click executed at (1476,5)
+[2026-10-28 00:53:27.540] Single ON->OFF cycle queued at (1234.0,90.0)
+[2026-10-28 00:53:27.542] ON->OFF action accepted at (1234,90); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:28.542] Desktop left-click executed at (1234,90)
+[2026-10-28 00:53:29.000] Single ON->OFF cycle queued at (1225.0,5.0)
+[2026-10-28 00:53:29.001] ON->OFF action accepted at (1225,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:30.010] Desktop left-click executed at (1225,5)
+[2026-10-28 00:53:34.630] Single ON->OFF cycle queued at (183.0,392.0)
+[2026-10-28 00:53:34.632] ON->OFF action accepted at (183,392); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:35.455] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:53:35.500] Desktop left-click executed at (183,392)
+[2026-10-28 00:53:35.503] Single ON->OFF cycle queued at (220.0,228.0)
+[2026-10-28 00:53:35.505] ON->OFF action accepted at (220,228); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:36.517] Desktop left-click executed at (220,228)
+[2026-10-28 00:53:37.452] Single ON->OFF cycle queued at (66.0,226.0)
+[2026-10-28 00:53:37.455] ON->OFF action accepted at (66,226); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:38.454] Desktop left-click executed at (66,226)
+[2026-10-28 00:53:45.286] Single ON->OFF cycle queued at (5.0,510.0)
+[2026-10-28 00:53:45.288] ON->OFF action accepted at (5,510); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:46.297] Desktop left-click executed at (5,510)
+[2026-10-28 00:53:46.494] Single ON->OFF cycle queued at (61.0,540.0)
+[2026-10-28 00:53:46.496] ON->OFF action accepted at (61,540); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:47.497] Desktop left-click executed at (61,540)
+[2026-10-28 00:53:48.081] Single ON->OFF cycle queued at (86.0,499.0)
+[2026-10-28 00:53:48.083] ON->OFF action accepted at (86,499); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:49.083] Desktop left-click executed at (86,499)
+[2026-10-28 00:53:49.675] Single ON->OFF cycle queued at (758.0,450.0)
+[2026-10-28 00:53:49.676] ON->OFF action accepted at (758,450); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:50.685] Desktop left-click executed at (758,450)
+[2026-10-28 00:53:54.752] Single ON->OFF cycle queued at (43.0,607.0)
+[2026-10-28 00:53:54.753] ON->OFF action accepted at (43,607); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:55.557] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.806s, distance=43.7px
+[2026-10-28 00:53:55.607] Desktop right-click executed at (51,564)
+[2026-10-28 00:53:55.609] ON->OFF action accepted at (51,564); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:53:56.685] Single ON->OFF cycle queued at (69.0,525.0)
+[2026-10-28 00:53:56.686] ON->OFF action accepted at (69,525); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:53:57.692] Desktop left-click executed at (69,525)
+[2026-10-28 00:54:00.566] Single ON->OFF cycle queued at (204.0,158.0)
+[2026-10-28 00:54:00.568] ON->OFF action accepted at (204,158); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:01.597] Desktop left-click executed at (204,158)
+[2026-10-28 00:54:01.944] Single ON->OFF cycle queued at (221.0,171.0)
+[2026-10-28 00:54:01.945] ON->OFF action accepted at (221,171); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:02.949] Desktop left-click executed at (221,171)
+[2026-10-28 00:54:06.101] Single ON->OFF cycle queued at (212.0,445.0)
+[2026-10-28 00:54:06.102] ON->OFF action accepted at (212,445); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:07.121] Desktop left-click executed at (212,445)
+[2026-10-28 00:54:07.239] Single ON->OFF cycle queued at (219.0,446.0)
+[2026-10-28 00:54:07.240] ON->OFF action accepted at (219,446); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:07.776] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.539s, distance=76.6px
+[2026-10-28 00:54:07.819] Desktop right-click executed at (264,384)
+[2026-10-28 00:54:07.820] ON->OFF action accepted at (264,384); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:54:12.513] Single ON->OFF cycle queued at (231.0,396.0)
+[2026-10-28 00:54:12.514] ON->OFF action accepted at (231,396); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:13.510] Desktop left-click executed at (231,396)
+[2026-10-28 00:54:16.235] Single ON->OFF cycle queued at (170.0,445.0)
+[2026-10-28 00:54:16.236] ON->OFF action accepted at (170,445); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:17.247] Desktop left-click executed at (170,445)
+[2026-10-28 00:54:17.639] Single ON->OFF cycle queued at (277.0,470.0)
+[2026-10-28 00:54:17.641] ON->OFF action accepted at (277,470); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:18.650] Desktop left-click executed at (277,470)
+[2026-10-28 00:54:26.065] Single ON->OFF cycle queued at (167.0,886.0)
+[2026-10-28 00:54:26.067] ON->OFF action accepted at (167,886); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:27.058] Desktop left-click executed at (167,886)
+[2026-10-28 00:54:27.308] Single ON->OFF cycle queued at (245.0,1074.0)
+[2026-10-28 00:54:27.310] ON->OFF action accepted at (245,1074); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:28.328] Desktop left-click executed at (245,1074)
+[2026-10-28 00:54:31.052] Single ON->OFF cycle queued at (163.0,883.0)
+[2026-10-28 00:54:31.053] ON->OFF action accepted at (163,883); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:31.952] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.901s, distance=129.2px
+[2026-10-28 00:54:31.996] Desktop right-click executed at (92,991)
+[2026-10-28 00:54:31.998] ON->OFF action accepted at (92,991); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:54:36.501] Single ON->OFF cycle queued at (76.0,400.0)
+[2026-10-28 00:54:36.502] ON->OFF action accepted at (76,400); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:37.506] Desktop left-click executed at (76,400)
+[2026-10-28 00:54:38.868] Single ON->OFF cycle queued at (404.0,474.0)
+[2026-10-28 00:54:38.869] ON->OFF action accepted at (404,474); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:39.890] Desktop left-click executed at (404,474)
+[2026-10-28 00:54:45.419] Single ON->OFF cycle queued at (38.0,741.0)
+[2026-10-28 00:54:45.420] ON->OFF action accepted at (38,741); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:46.431] Desktop left-click executed at (38,741)
+[2026-10-28 00:54:46.690] Single ON->OFF cycle queued at (96.0,964.0)
+[2026-10-28 00:54:46.691] ON->OFF action accepted at (96,964); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:47.700] Desktop left-click executed at (96,964)
+[2026-10-28 00:54:48.441] Single ON->OFF cycle queued at (5.0,772.0)
+[2026-10-28 00:54:48.442] ON->OFF action accepted at (5,772); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:49.434] Desktop left-click executed at (5,772)
+[2026-10-28 00:54:49.474] Single ON->OFF cycle queued at (5.0,721.0)
+[2026-10-28 00:54:49.475] ON->OFF action accepted at (5,721); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:50.324] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.850s, distance=119.4px
+[2026-10-28 00:54:50.363] Desktop right-click executed at (56,613)
+[2026-10-28 00:54:50.365] ON->OFF action accepted at (56,613); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:54:51.410] Single ON->OFF cycle queued at (54.0,667.0)
+[2026-10-28 00:54:51.411] ON->OFF action accepted at (54,667); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:52.421] Desktop left-click executed at (54,667)
+[2026-10-28 00:54:54.972] Single ON->OFF cycle queued at (5.0,459.0)
+[2026-10-28 00:54:54.974] ON->OFF action accepted at (5,459); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:55.990] Desktop left-click executed at (5,459)
+[2026-10-28 00:54:56.297] Single ON->OFF cycle queued at (5.0,516.0)
+[2026-10-28 00:54:56.299] ON->OFF action accepted at (5,516); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:57.291] Desktop left-click executed at (5,516)
+[2026-10-28 00:54:57.400] Single ON->OFF cycle queued at (5.0,498.0)
+[2026-10-28 00:54:57.402] ON->OFF action accepted at (5,498); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:58.409] Desktop left-click executed at (5,498)
+[2026-10-28 00:54:58.462] Single ON->OFF cycle queued at (5.0,426.0)
+[2026-10-28 00:54:58.464] ON->OFF action accepted at (5,426); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:54:59.458] Desktop left-click executed at (5,426)
+[2026-10-28 00:55:01.052] Single ON->OFF cycle queued at (11.0,458.0)
+[2026-10-28 00:55:01.058] ON->OFF action accepted at (11,458); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:02.081] Desktop left-click executed at (11,458)
+[2026-10-28 00:55:02.339] Single ON->OFF cycle queued at (5.0,491.0)
+[2026-10-28 00:55:02.341] ON->OFF action accepted at (5,491); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:03.333] Desktop left-click executed at (5,491)
+[2026-10-28 00:55:03.603] Single ON->OFF cycle queued at (5.0,416.0)
+[2026-10-28 00:55:03.604] ON->OFF action accepted at (5,416); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:04.618] Desktop left-click executed at (5,416)
+[2026-10-28 00:55:06.070] Single ON->OFF cycle queued at (5.0,462.0)
+[2026-10-28 00:55:06.071] ON->OFF action accepted at (5,462); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:07.087] Desktop left-click executed at (5,462)
+[2026-10-28 00:55:07.338] Single ON->OFF cycle queued at (5.0,447.0)
+[2026-10-28 00:55:07.339] ON->OFF action accepted at (5,447); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:08.355] Desktop left-click executed at (5,447)
+[2026-10-28 00:55:08.539] Single ON->OFF cycle queued at (5.0,406.0)
+[2026-10-28 00:55:08.540] ON->OFF action accepted at (5,406); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:09.540] Desktop left-click executed at (5,406)
+[2026-10-28 00:55:09.842] Single ON->OFF cycle queued at (5.0,390.0)
+[2026-10-28 00:55:09.843] ON->OFF action accepted at (5,390); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:10.858] Desktop left-click executed at (5,390)
+[2026-10-28 00:55:10.968] Single ON->OFF cycle queued at (21.0,350.0)
+[2026-10-28 00:55:10.969] ON->OFF action accepted at (21,350); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:11.926] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:55:11.976] Desktop left-click executed at (21,350)
+[2026-10-28 00:55:11.978] Single ON->OFF cycle queued at (63.0,450.0)
+[2026-10-28 00:55:11.979] ON->OFF action accepted at (63,450); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:12.969] Desktop left-click executed at (63,450)
+[2026-10-28 00:55:15.050] Single ON->OFF cycle queued at (188.0,344.0)
+[2026-10-28 00:55:15.052] ON->OFF action accepted at (188,344); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:16.065] Desktop left-click executed at (188,344)
+[2026-10-28 00:55:16.776] Single ON->OFF cycle queued at (6.0,381.0)
+[2026-10-28 00:55:16.777] ON->OFF action accepted at (6,381); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:17.783] Desktop left-click executed at (6,381)
+[2026-10-28 00:55:17.972] Single ON->OFF cycle queued at (96.0,299.0)
+[2026-10-28 00:55:17.974] ON->OFF action accepted at (96,299); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:18.681] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:55:18.734] Desktop left-click executed at (96,299)
+[2026-10-28 00:55:18.738] Single ON->OFF cycle queued at (8.0,402.0)
+[2026-10-28 00:55:18.738] ON->OFF action accepted at (8,402); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:19.413] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.732s, distance=18.2px
+[2026-10-28 00:55:19.451] Desktop right-click executed at (5,384)
+[2026-10-28 00:55:19.454] ON->OFF action accepted at (5,384); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:55:26.836] Single ON->OFF cycle queued at (156.0,471.0)
+[2026-10-28 00:55:26.837] ON->OFF action accepted at (156,471); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:27.861] Desktop left-click executed at (156,471)
+[2026-10-28 00:55:28.182] Single ON->OFF cycle queued at (199.0,349.0)
+[2026-10-28 00:55:28.184] ON->OFF action accepted at (199,349); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:29.197] Desktop left-click executed at (199,349)
+[2026-10-28 00:55:31.307] Single ON->OFF cycle queued at (72.0,385.0)
+[2026-10-28 00:55:31.309] ON->OFF action accepted at (72,385); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:32.299] Desktop left-click executed at (72,385)
+[2026-10-28 00:55:32.931] Single ON->OFF cycle queued at (5.0,423.0)
+[2026-10-28 00:55:32.933] ON->OFF action accepted at (5,423); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:33.935] Desktop left-click executed at (5,423)
+[2026-10-28 00:55:34.931] Single ON->OFF cycle queued at (13.0,377.0)
+[2026-10-28 00:55:34.932] ON->OFF action accepted at (13,377); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:35.921] Desktop left-click executed at (13,377)
+[2026-10-28 00:55:36.031] Single ON->OFF cycle queued at (126.0,458.0)
+[2026-10-28 00:55:36.032] ON->OFF action accepted at (126,458); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:37.038] Desktop left-click executed at (126,458)
+[2026-10-28 00:55:37.297] Single ON->OFF cycle queued at (60.0,499.0)
+[2026-10-28 00:55:37.298] ON->OFF action accepted at (60,499); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:38.307] Desktop left-click executed at (60,499)
+[2026-10-28 00:55:38.931] Single ON->OFF cycle queued at (156.0,225.0)
+[2026-10-28 00:55:38.932] ON->OFF action accepted at (156,225); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:39.902] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:55:39.958] Desktop left-click executed at (156,225)
+[2026-10-28 00:55:39.960] Single ON->OFF cycle queued at (181.0,260.0)
+[2026-10-28 00:55:39.961] ON->OFF action accepted at (181,260); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:40.992] Desktop left-click executed at (181,260)
+[2026-10-28 00:55:41.182] Single ON->OFF cycle queued at (178.0,279.0)
+[2026-10-28 00:55:41.183] ON->OFF action accepted at (178,279); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:42.193] Desktop left-click executed at (178,279)
+[2026-10-28 00:55:42.724] Single ON->OFF cycle queued at (173.0,257.0)
+[2026-10-28 00:55:42.725] ON->OFF action accepted at (173,257); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:43.745] Desktop left-click executed at (173,257)
+[2026-10-28 00:55:47.337] Single ON->OFF cycle queued at (167.0,171.0)
+[2026-10-28 00:55:47.338] ON->OFF action accepted at (167,171); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:48.384] Desktop left-click executed at (167,171)
+[2026-10-28 00:55:48.508] Single ON->OFF cycle queued at (162.0,194.0)
+[2026-10-28 00:55:48.510] ON->OFF action accepted at (162,194); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:49.504] Desktop left-click executed at (162,194)
+[2026-10-28 00:55:49.759] Single ON->OFF cycle queued at (138.0,220.0)
+[2026-10-28 00:55:49.761] ON->OFF action accepted at (138,220); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:50.771] Desktop left-click executed at (138,220)
+[2026-10-28 00:55:51.016] Single ON->OFF cycle queued at (209.0,142.0)
+[2026-10-28 00:55:51.017] ON->OFF action accepted at (209,142); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:52.021] Desktop left-click executed at (209,142)
+[2026-10-28 00:55:52.428] Single ON->OFF cycle queued at (239.0,177.0)
+[2026-10-28 00:55:52.430] ON->OFF action accepted at (239,177); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:53.395] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:55:53.438] Desktop left-click executed at (239,177)
+[2026-10-28 00:55:53.441] Single ON->OFF cycle queued at (304.0,154.0)
+[2026-10-28 00:55:53.442] ON->OFF action accepted at (304,154); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:54.473] Desktop left-click executed at (304,154)
+[2026-10-28 00:55:54.504] Single ON->OFF cycle queued at (350.0,163.0)
+[2026-10-28 00:55:54.505] ON->OFF action accepted at (350,163); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:55.540] Desktop left-click executed at (350,163)
+[2026-10-28 00:55:56.005] Single ON->OFF cycle queued at (334.0,161.0)
+[2026-10-28 00:55:56.006] ON->OFF action accepted at (334,161); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:57.010] Desktop left-click executed at (334,161)
+[2026-10-28 00:55:57.124] Single ON->OFF cycle queued at (352.0,192.0)
+[2026-10-28 00:55:57.125] ON->OFF action accepted at (352,192); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:58.128] Desktop left-click executed at (352,192)
+[2026-10-28 00:55:58.388] Single ON->OFF cycle queued at (339.0,195.0)
+[2026-10-28 00:55:58.390] ON->OFF action accepted at (339,195); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:55:59.413] Desktop left-click executed at (339,195)
+[2026-10-28 00:55:59.675] Single ON->OFF cycle queued at (318.0,169.0)
+[2026-10-28 00:55:59.676] ON->OFF action accepted at (318,169); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:00.698] Desktop left-click executed at (318,169)
+[2026-10-28 00:56:01.042] Single ON->OFF cycle queued at (298.0,96.0)
+[2026-10-28 00:56:01.043] ON->OFF action accepted at (298,96); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:02.050] Desktop left-click executed at (298,96)
+[2026-10-28 00:56:04.014] Single ON->OFF cycle queued at (351.0,126.0)
+[2026-10-28 00:56:04.015] ON->OFF action accepted at (351,126); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:05.018] Desktop left-click executed at (351,126)
+[2026-10-28 00:56:05.058] Single ON->OFF cycle queued at (328.0,147.0)
+[2026-10-28 00:56:05.059] ON->OFF action accepted at (328,147); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:06.013] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:56:06.052] Desktop left-click executed at (328,147)
+[2026-10-28 00:56:06.055] Single ON->OFF cycle queued at (336.0,152.0)
+[2026-10-28 00:56:06.056] ON->OFF action accepted at (336,152); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:07.050] Desktop left-click executed at (336,152)
+[2026-10-28 00:56:07.086] Single ON->OFF cycle queued at (412.0,126.0)
+[2026-10-28 00:56:07.087] ON->OFF action accepted at (412,126); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:08.080] Desktop left-click executed at (412,126)
+[2026-10-28 00:56:08.478] Single ON->OFF cycle queued at (418.0,84.0)
+[2026-10-28 00:56:08.479] ON->OFF action accepted at (418,84); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:09.492] Desktop left-click executed at (418,84)
+[2026-10-28 00:56:12.150] Single ON->OFF cycle queued at (1327.0,1074.0)
+[2026-10-28 00:56:12.151] ON->OFF action accepted at (1327,1074); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:13.146] Desktop left-click executed at (1327,1074)
+[2026-10-28 00:56:18.728] Single ON->OFF cycle queued at (1257.0,683.0)
+[2026-10-28 00:56:18.730] ON->OFF action accepted at (1257,683); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:19.770] Desktop left-click executed at (1257,683)
+[2026-10-28 00:56:26.871] Single ON->OFF cycle queued at (1914.0,10.0)
+[2026-10-28 00:56:26.872] ON->OFF action accepted at (1914,10); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:27.741] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.870s, distance=60.2px
+[2026-10-28 00:56:27.795] Desktop right-click executed at (1865,45)
+[2026-10-28 00:56:27.797] ON->OFF action accepted at (1865,45); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:56:29.711] Single ON->OFF cycle queued at (1749.0,5.0)
+[2026-10-28 00:56:29.712] ON->OFF action accepted at (1749,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:30.730] Desktop left-click executed at (1749,5)
+[2026-10-28 00:56:32.136] Single ON->OFF cycle queued at (1914.0,5.0)
+[2026-10-28 00:56:32.137] ON->OFF action accepted at (1914,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:33.133] Desktop left-click executed at (1914,5)
+[2026-10-28 00:56:38.625] Single ON->OFF cycle queued at (1355.0,1025.0)
+[2026-10-28 00:56:38.627] ON->OFF action accepted at (1355,1025); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:39.658] Desktop left-click executed at (1355,1025)
+[2026-10-28 00:56:39.696] Single ON->OFF cycle queued at (1326.0,979.0)
+[2026-10-28 00:56:39.697] ON->OFF action accepted at (1326,979); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:40.711] Desktop left-click executed at (1326,979)
+[2026-10-28 00:56:44.032] Single ON->OFF cycle queued at (1914.0,29.0)
+[2026-10-28 00:56:44.033] ON->OFF action accepted at (1914,29); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:45.067] Desktop left-click executed at (1914,29)
+[2026-10-28 00:56:52.249] Single ON->OFF cycle queued at (1270.0,998.0)
+[2026-10-28 00:56:52.251] ON->OFF action accepted at (1270,998); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:53.258] Desktop left-click executed at (1270,998)
+[2026-10-28 00:56:56.478] Single ON->OFF cycle queued at (1093.0,1033.0)
+[2026-10-28 00:56:56.479] ON->OFF action accepted at (1093,1033); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:57.495] Desktop left-click executed at (1093,1033)
+[2026-10-28 00:56:57.537] Single ON->OFF cycle queued at (882.0,1010.0)
+[2026-10-28 00:56:57.538] ON->OFF action accepted at (882,1010); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:56:58.547] Desktop left-click executed at (882,1010)
+[2026-10-28 00:57:05.598] Single ON->OFF cycle queued at (1790.0,33.0)
+[2026-10-28 00:57:05.599] ON->OFF action accepted at (1790,33); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:06.623] Desktop left-click executed at (1790,33)
+[2026-10-28 00:57:07.472] Single ON->OFF cycle queued at (1914.0,5.0)
+[2026-10-28 00:57:07.474] ON->OFF action accepted at (1914,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:08.475] Desktop left-click executed at (1914,5)
+[2026-10-28 00:57:15.623] Single ON->OFF cycle queued at (1088.0,1034.0)
+[2026-10-28 00:57:15.624] ON->OFF action accepted at (1088,1034); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:16.633] Desktop left-click executed at (1088,1034)
+[2026-10-28 00:57:18.844] Single ON->OFF cycle queued at (1373.0,5.0)
+[2026-10-28 00:57:18.845] ON->OFF action accepted at (1373,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:19.855] Desktop left-click executed at (1373,5)
+[2026-10-28 00:57:23.014] Single ON->OFF cycle queued at (1878.0,18.0)
+[2026-10-28 00:57:23.015] ON->OFF action accepted at (1878,18); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:24.059] Desktop left-click executed at (1878,18)
+[2026-10-28 00:57:32.637] Single ON->OFF cycle queued at (967.0,1074.0)
+[2026-10-28 00:57:32.639] ON->OFF action accepted at (967,1074); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:33.638] Desktop left-click executed at (967,1074)
+[2026-10-28 00:57:33.677] Single ON->OFF cycle queued at (1066.0,739.0)
+[2026-10-28 00:57:33.678] ON->OFF action accepted at (1066,739); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:34.689] Desktop left-click executed at (1066,739)
+[2026-10-28 00:57:41.427] Single ON->OFF cycle queued at (1914.0,30.0)
+[2026-10-28 00:57:41.428] ON->OFF action accepted at (1914,30); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:42.445] Desktop left-click executed at (1914,30)
+[2026-10-28 00:57:42.502] Single ON->OFF cycle queued at (1914.0,184.0)
+[2026-10-28 00:57:42.503] ON->OFF action accepted at (1914,184); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:43.565] Desktop left-click executed at (1914,184)
+[2026-10-28 00:57:50.276] Single ON->OFF cycle queued at (1078.0,1026.0)
+[2026-10-28 00:57:50.277] ON->OFF action accepted at (1078,1026); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:51.291] Desktop left-click executed at (1078,1026)
+[2026-10-28 00:57:55.090] Single ON->OFF cycle queued at (1914.0,5.0)
+[2026-10-28 00:57:55.091] ON->OFF action accepted at (1914,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:56.096] Desktop left-click executed at (1914,5)
+[2026-10-28 00:57:56.289] Single ON->OFF cycle queued at (1843.0,107.0)
+[2026-10-28 00:57:56.290] ON->OFF action accepted at (1843,107); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:57:57.296] Desktop left-click executed at (1843,107)
+[2026-10-28 00:58:01.742] Single ON->OFF cycle queued at (1030.0,1034.0)
+[2026-10-28 00:58:01.744] ON->OFF action accepted at (1030,1034); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:02.735] Desktop left-click executed at (1030,1034)
+[2026-10-28 00:58:02.789] Single ON->OFF cycle queued at (1189.0,1051.0)
+[2026-10-28 00:58:02.790] ON->OFF action accepted at (1189,1051); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:03.821] Desktop left-click executed at (1189,1051)
+[2026-10-28 00:58:06.754] Single ON->OFF cycle queued at (1512.0,417.0)
+[2026-10-28 00:58:06.756] ON->OFF action accepted at (1512,417); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:07.763] Desktop left-click executed at (1512,417)
+[2026-10-28 00:58:11.840] Single ON->OFF cycle queued at (1845.0,5.0)
+[2026-10-28 00:58:11.842] ON->OFF action accepted at (1845,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:12.897] Desktop left-click executed at (1845,5)
+[2026-10-28 00:58:18.982] Single ON->OFF cycle queued at (1333.0,5.0)
+[2026-10-28 00:58:18.984] ON->OFF action accepted at (1333,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:19.989] Desktop left-click executed at (1333,5)
+[2026-10-28 00:58:22.443] Single ON->OFF cycle queued at (1272.0,49.0)
+[2026-10-28 00:58:22.445] ON->OFF action accepted at (1272,49); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:23.444] Desktop left-click executed at (1272,49)
+[2026-10-28 00:58:27.241] Single ON->OFF cycle queued at (1127.0,32.0)
+[2026-10-28 00:58:27.243] ON->OFF action accepted at (1127,32); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:28.249] Desktop left-click executed at (1127,32)
+[2026-10-28 00:58:33.925] Single ON->OFF cycle queued at (1292.0,5.0)
+[2026-10-28 00:58:33.927] ON->OFF action accepted at (1292,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:34.941] Desktop left-click executed at (1292,5)
+[2026-10-28 00:58:38.318] Single ON->OFF cycle queued at (1236.0,7.0)
+[2026-10-28 00:58:38.320] ON->OFF action accepted at (1236,7); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:39.330] Desktop left-click executed at (1236,7)
+[2026-10-28 00:58:39.376] Single ON->OFF cycle queued at (1264.0,5.0)
+[2026-10-28 00:58:39.378] ON->OFF action accepted at (1264,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:40.396] Desktop left-click executed at (1264,5)
+[2026-10-28 00:58:44.178] Single ON->OFF cycle queued at (1859.0,5.0)
+[2026-10-28 00:58:44.180] ON->OFF action accepted at (1859,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:45.184] Desktop left-click executed at (1859,5)
+[2026-10-28 00:58:49.734] Single ON->OFF cycle queued at (1827.0,10.0)
+[2026-10-28 00:58:49.736] ON->OFF action accepted at (1827,10); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:50.757] Desktop left-click executed at (1827,10)
+[2026-10-28 00:58:50.833] Single ON->OFF cycle queued at (1658.0,635.0)
+[2026-10-28 00:58:50.835] ON->OFF action accepted at (1658,635); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:51.552] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:58:51.610] Desktop left-click executed at (1658,635)
+[2026-10-28 00:58:51.612] Single ON->OFF cycle queued at (634.0,1074.0)
+[2026-10-28 00:58:51.613] ON->OFF action accepted at (634,1074); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:52.626] Desktop left-click executed at (634,1074)
+[2026-10-28 00:58:57.582] Single ON->OFF cycle queued at (1664.0,5.0)
+[2026-10-28 00:58:57.583] ON->OFF action accepted at (1664,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:58:58.599] Desktop left-click executed at (1664,5)
+[2026-10-28 00:59:03.281] Single ON->OFF cycle queued at (1876.0,5.0)
+[2026-10-28 00:59:03.282] ON->OFF action accepted at (1876,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:04.221] Right-click gesture confirmed: two ON->OFF cycles, elapsed=0.941s, distance=27.3px
+[2026-10-28 00:59:04.272] Desktop right-click executed at (1900,18)
+[2026-10-28 00:59:04.273] ON->OFF action accepted at (1900,18); detail=right-click; board=False; menu_open=False
+[2026-10-28 00:59:08.834] Single ON->OFF cycle queued at (1894.0,5.0)
+[2026-10-28 00:59:08.836] ON->OFF action accepted at (1894,5); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:09.863] Desktop left-click executed at (1894,5)
+[2026-10-28 00:59:14.711] Single ON->OFF cycle queued at (1309.0,21.0)
+[2026-10-28 00:59:14.713] ON->OFF action accepted at (1309,21); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:15.722] Desktop left-click executed at (1309,21)
+[2026-10-28 00:59:27.214] Single ON->OFF cycle queued at (1357.0,1003.0)
+[2026-10-28 00:59:27.215] ON->OFF action accepted at (1357,1003); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:28.233] Desktop left-click executed at (1357,1003)
+[2026-10-28 00:59:37.908] Single ON->OFF cycle queued at (1381.0,1037.0)
+[2026-10-28 00:59:37.910] ON->OFF action accepted at (1381,1037); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:38.876] Second cycle outside right-click window/location; resolving previous left click
+[2026-10-28 00:59:38.928] Desktop left-click executed at (1381,1037)
+[2026-10-28 00:59:38.931] Single ON->OFF cycle queued at (1376.0,1074.0)
+[2026-10-28 00:59:38.933] ON->OFF action accepted at (1376,1074); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:39.945] Desktop left-click executed at (1376,1074)
+[2026-10-28 00:59:41.351] Single ON->OFF cycle queued at (1249.0,473.0)
+[2026-10-28 00:59:41.353] ON->OFF action accepted at (1249,473); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:42.364] Desktop left-click executed at (1249,473)
+[2026-10-28 00:59:46.320] Single ON->OFF cycle queued at (1307.0,1030.0)
+[2026-10-28 00:59:46.322] ON->OFF action accepted at (1307,1030); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:47.320] Desktop left-click executed at (1307,1030)
+[2026-10-28 00:59:47.362] Single ON->OFF cycle queued at (1474.0,1023.0)
+[2026-10-28 00:59:47.364] ON->OFF action accepted at (1474,1023); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:48.372] Desktop left-click executed at (1474,1023)
+[2026-10-28 00:59:51.465] Single ON->OFF cycle queued at (1370.0,1024.0)
+[2026-10-28 00:59:51.467] ON->OFF action accepted at (1370,1024); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:52.476] Desktop left-click executed at (1370,1024)
+[2026-10-28 00:59:57.633] Single ON->OFF cycle queued at (1318.0,84.0)
+[2026-10-28 00:59:57.634] ON->OFF action accepted at (1318,84); detail=left-click-pending; board=False; menu_open=False
+[2026-10-28 00:59:58.651] Desktop left-click executed at (1318,84)
