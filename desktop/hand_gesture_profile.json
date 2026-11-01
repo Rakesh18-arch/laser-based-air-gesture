@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "completed_at": "2026-11-01T03:25:23",
+  "camera_name": "HD Webcam",
+  "camera_kind": "External USB webcam",
+  "handedness_hint": "Right",
+  "gesture_lesson_completed": true,
+  "lesson_completed_at": "2026-11-01T03:25:23",
+  "lessons": [
+    "verify",
+    "index",
+    "pinch",
+    "pan",
+    "zoom",
+    "menu"
+  ],
+  "storage_note": "Only setup metadata is stored. No images, video, or landmark frames are stored."
+}

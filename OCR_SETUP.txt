@@ -1,0 +1,15 @@
+OPTIONAL SMART WRITE OCR SETUP
+===============================
+
+AIRWRITE's drawing, cursor, gestures and Smart Board do not require the
+Tesseract OCR application. To enable handwriting-to-text OCR:
+
+1. Install the Tesseract OCR Windows application using the Windows build
+   instructions from the UB Mannheim project:
+   https://github.com/UB-Mannheim/tesseract/wiki
+2. Keep the default installation path if possible:
+   C:\Program Files\Tesseract-OCR\tesseract.exe
+3. Restart AIRWRITE Desktop.
+
+The Python pytesseract package is installed by START_AIRWRITE.bat.
+The OCR executable is a separate Windows application and is not bundled.

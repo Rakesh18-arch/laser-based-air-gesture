@@ -1,0 +1,16 @@
+KEEP YOUR EXISTING AIRWRITE REGISTRATIONS AND CAMERA SETTINGS
+============================================================
+
+1. Close AIRWRITE desktop and stop the website server with Ctrl+C in its black terminal window.
+2. Extract this release into a NEW folder.
+3. Copy the entire `data` folder from your old AIRWRITE installation into the new release folder. This preserves airwrite_users.sqlite3 and OWNER_LOGIN.txt.
+4. From the old `desktop` folder, copy only the camera / laser settings you still use:
+   - camera_profile.txt or droidcam_camera.txt (Laser mode profile)
+   - hand_camera_profile.txt (Hand mode webcam profile, if you want to reuse it)
+   - laser_calibration_9points.txt (previous laser mapping, for visual guidance / fallback only)
+5. Do NOT copy the old hand_calibration_5points.txt or hand_calibration_camera.txt files. This release intentionally has no hand spatial calibration. Hand coordinates are normalized directly into the left Smart Board canvas.
+6. Do not copy the old `.venv` folder. Run START_AIRWRITE.bat; the new setup version refreshes required packages.
+
+The first Hand Gesture Studio launch runs the Gesture Academy once. It stores only local setup metadata after detecting a hand; no images or camera frames are stored.
+
+Keep the `data` folder private. It contains account details and owner credentials.

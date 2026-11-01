@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/*
+!data/.keep
+*.log
+.env
+.env.local
+backend/.env
+
+# Local Netlify folder
+.netlify

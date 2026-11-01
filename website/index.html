@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070910">
+  <meta name="description" content="AIRWRITE — a laser-tracked touchless smart board powered by your camera and desktop computer.">
+  <title>AIRWRITE — Human interaction, beyond the screen</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body id="top">
+  <div class="noise"></div>
+
+  <!-- Cinematic intro: runs before sign-in. -->
+  <section class="splash" id="splash" aria-label="AIRWRITE intro animation">
+    <div class="splash-orbit orbit-one"></div><div class="splash-orbit orbit-two"></div>
+    <div class="splash-inner">
+      <div class="microline"><span class="live-beacon"></span> TOUCHLESS INTERACTION SYSTEM <span class="micro-divider"></span> INITIALISING</div>
+      <div class="splash-logo-wrap">
+        <svg class="splash-logo" viewBox="0 0 900 180" role="img" aria-label="AIRWRITE">
+          <defs><filter id="redGlow" x="-40%" y="-100%" width="180%" height="300%"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+          <text x="450" y="118" text-anchor="middle">AIRWRITE</text>
+          <path id="splashPath" d="M78 145 L175 145 L235 145 L306 145 L374 145 L450 145 L526 145 L594 145 L665 145 L725 145 L822 145" />
+          <circle class="splash-dot" r="7" filter="url(#redGlow)"><animateMotion dur="3.1s" repeatCount="1" fill="freeze" path="M78 145 L175 145 L235 145 L306 145 L374 145 L450 145 L526 145 L594 145 L665 145 L725 145 L822 145"/></circle>
+        </svg>
+      </div>
+      <p class="splash-tagline">YOUR SPACE. YOUR MOVEMENT. YOUR SCREEN.</p>
+      <div class="splash-loader"><span></span></div>
+      <button class="splash-enter" id="enterPortal" type="button">Enter AIRWRITE <span>↗</span></button>
+    </div>
+    <div class="splash-bottom"><span>CONNECT CAMERA</span><i></i><span>TRACK LASER</span><i></i><span>CREATE WITHOUT TOUCH</span></div>
+  </section>
+
+  <!-- Login / registration view. -->
+  <main class="auth-page hidden" id="authPage">
+    <div class="auth-topbar">
+      <a class="brand" href="#top"><span class="brand-glyph"><i></i><i></i><i></i></span><b>AIRWRITE</b><span class="brand-edition">LOCAL STUDIO</span></a>
+      <div class="local-pill"><span class="green-dot"></span> SECURE CLOUD PORTAL</div>
+    </div>
+    <div class="auth-layout">
+      <section class="auth-story">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A NEW WAY TO INTERACT</div>
+        <h1>Move beyond<br><em>the surface.</em></h1>
+        <p class="story-lede">Turn a compatible screen into a touchless workspace. Point, write, draw and control using a laser, a camera and AIRWRITE's desktop vision engine.</p>
+        <div class="story-art">
+          <div class="art-top"><span><b class="live-beacon"></b> AIRWRITE / OPTICAL TRACKING</span><span>LIVE CONCEPT</span></div>
+          <div class="art-screen">
+            <div class="art-grid"></div>
+            <svg viewBox="0 0 640 290" preserveAspectRatio="none" aria-hidden="true">
+              <path class="art-trace" d="M28 215 C90 202 94 70 164 82 S230 238 305 174 S396 40 450 97 S526 249 612 66" />
+              <path class="art-trace-soft" d="M28 215 C90 202 94 70 164 82 S230 238 305 174 S396 40 450 97 S526 249 612 66" />
+              <circle class="art-beam" r="5"><animateMotion dur="4.2s" repeatCount="indefinite" path="M28 215 C90 202 94 70 164 82 S230 238 305 174 S396 40 450 97 S526 249 612 66"/></circle>
+            </svg>
+            <div class="target-ring target-a"></div><div class="target-ring target-b"></div><div class="target-ring target-c"></div>
+            <span class="art-coordinate coord-a">X 046.2 / Y 018.7</span><span class="art-coordinate coord-b">MAPPED TO DISPLAY</span>
+          </div>
+          <div class="art-foot"><span>CAMERA INPUT <b>READY FOR DESKTOP</b></span><span>LOW-LATENCY LOCAL PROCESSING</span></div>
+        </div>
+        <div class="story-points"><div><span class="point-icon">01</span><span><b>Computer vision</b><small>Laser spot detection from camera frames</small></span></div><div><span class="point-icon">02</span><span><b>Screen calibration</b><small>Map physical movement to your display</small></span></div><div><span class="point-icon">03</span><span><b>Smart Board</b><small>Write, draw, gesture and navigate</small></span></div></div>
+      </section>
+
+      <section class="auth-card-wrap">
+        <div class="auth-card">
+          <div class="auth-card-head"><span class="auth-kicker">WELCOME TO YOUR WORKSPACE</span><div class="secure-mark">⌁ &nbsp; SECURE SESSION</div></div>
+          <h2 id="authTitle">Welcome back.</h2>
+          <p class="auth-subtitle" id="authSubtitle">Sign in to launch your AIRWRITE desktop experience.</p>
+          <div class="auth-tabs" role="tablist"><button class="auth-tab active" id="loginTab" type="button" role="tab" aria-selected="true">Sign in</button><button class="auth-tab" id="registerTab" type="button" role="tab" aria-selected="false">Create account</button></div>
+          <form id="loginForm" class="auth-form">
+            <label for="loginIdentifier">Email address</label><div class="input-shell"><span class="input-icon">◎</span><input id="loginIdentifier" name="identifier" type="text" autocomplete="username" placeholder="you@example.com" required></div>
+            <label for="loginPassword">Password</label><div class="input-shell"><span class="input-icon">⌑</span><input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required><button class="password-toggle" type="button" data-toggle-password="loginPassword" aria-label="Show password">Show</button></div>
+            <button class="button button-primary button-wide" type="submit"><span>Sign in to AIRWRITE</span><b>↗</b></button>
+          </form>
+          <form id="registerForm" class="auth-form hidden">
+            <div class="form-row"><div><label for="registerName">Full name</label><div class="input-shell"><span class="input-icon">♙</span><input id="registerName" name="full_name" type="text" autocomplete="name" placeholder="Your name" minlength="2" maxlength="100" required></div></div><div><label for="registerOrg">Organisation <small>optional</small></label><div class="input-shell"><span class="input-icon">⌂</span><input id="registerOrg" name="organisation" type="text" autocomplete="organization" placeholder="College / company"></div></div></div>
+            <label for="registerEmail">Email address</label><div class="input-shell"><span class="input-icon">✉</span><input id="registerEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+            <label for="registerPassword">Create password <small>8 characters minimum</small></label><div class="input-shell"><span class="input-icon">⌑</span><input id="registerPassword" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" placeholder="Create a strong password" required><button class="password-toggle" type="button" data-toggle-password="registerPassword">Show</button></div>
+            <label class="check-line"><input id="registerConsent" type="checkbox" required><span>I understand my registration details are securely saved in the AIRWRITE cloud database.</span></label>
+            <button class="button button-primary button-wide" type="submit"><span>Create my AIRWRITE account</span><b>↗</b></button>
+          </form>
+          <div class="auth-message" id="authMessage" role="status" aria-live="polite"></div>
+          <div class="auth-divider"><span></span><b>BUILT FOR CREATORS & EDUCATORS</b><span></span></div>
+          <div class="auth-foot"><span>By continuing, you agree to use AIRWRITE responsibly.</span><span class="privacy-label">CLOUD DATA · PASSWORD HASHED</span></div>
+        </div>
+        <div class="auth-help"><span class="help-orb">?</span><span>New here? Create an account. Owner access is private and configured by the AIRWRITE administrator.</span></div>
+      </section>
+    </div>
+    <footer class="site-legal"><span>© <span data-year></span> AIRWRITE STUDIO</span><span>CAMERA AND LASER PROCESSING RUN ON YOUR WINDOWS DESKTOP</span></footer>
+  </main>
+
+  <!-- Authenticated workspace. -->
+  <div class="workspace hidden" id="workspace">
+    <header class="app-header">
+      <a class="brand" href="#workspaceHome"><span class="brand-glyph"><i></i><i></i><i></i></span><b>AIRWRITE</b><span class="brand-edition">STUDIO</span></a>
+      <nav class="app-nav"><a class="nav-active" href="#workspaceHome">Workspace</a><a href="#capabilities">Capabilities</a><a href="#gestures">Gestures</a><a href="#business">For organisations</a><a href="#plans">Plans</a><a href="#contact">Contact</a><button class="nav-owner hidden" id="ownerNav" type="button">Owner dashboard</button></nav>
+      <div class="account-menu"><span class="account-avatar" id="accountAvatar">A</span><span class="account-name" id="accountName">Account</span><button class="text-button" id="logoutButton" type="button">Sign out ↗</button></div>
+    </header>
+
+    <main id="workspaceHome">
+      <section class="workspace-hero page-width">
+        <div class="workspace-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR TOUCHLESS WORKSPACE</div>
+          <p class="welcome-line" id="welcomeLine">WELCOME BACK</p>
+          <h1>Make the air<br><em>your interface.</em></h1>
+          <p>Launch the real Windows desktop engine. Choose your built-in laptop camera, a plug-in USB webcam or DroidCam. AIRWRITE verifies the live feed, captures the laser-off background and guides you through five full-screen calibration targets before opening the Smart Board.</p>
+          <div class="launch-actions">
+            <button class="launch-mode-card launch-laser" id="launchLaser" type="button">
+              <span class="launch-mode-icon">⌖</span><span class="launch-mode-copy"><b>Start Laser Writer</b><small>Open the real desktop app · camera preview · quick 5-point calibration · Smart Board</small></span><span class="launch-arrow">↗</span>
+            </button>
+            <button class="launch-mode-card launch-hand" id="launchHand" type="button">
+              <span class="launch-mode-icon">✋</span><span class="launch-mode-copy"><b>Start Hand Gesture Studio</b><small>Open the laptop webcam · learn gestures · draw, pan, zoom and control tools; no hand calibration</small></span><span class="launch-arrow">↗</span>
+            </button>
+          </div>
+          <div class="launch-note"><span class="green-dot"></span><span>Desktop bridge <b id="bridgeState">Checking…</b> · camera frames stay on this computer</span></div>
+          <div class="hero-footnote"><span>01 / CONNECT</span><span>02 / CALIBRATE</span><span>03 / CREATE</span></div>
+        </div>
+        <div class="workspace-visual">
+          <div class="visual-shell"><div class="visual-shell-head"><span><i class="live-beacon"></i> OPTICAL ENGINE</span><span class="live-state" id="desktopState">DESKTOP IDLE</span></div><div class="visual-canvas"><div class="visual-cross cross-one"></div><div class="visual-cross cross-two"></div><div class="visual-scan"></div><div class="visual-path"><svg viewBox="0 0 520 310" preserveAspectRatio="none" aria-hidden="true"><path d="M25 233 C90 230 95 85 160 101 S225 244 288 172 S375 45 425 108 S473 200 500 61"/></svg></div><div class="laser-reticle"><span></span></div><div class="visual-readout readout-one">SPOT TRACK / SIMULATED</div><div class="visual-readout readout-two">X: 0842 &nbsp; Y: 0416</div></div><div class="visual-shell-foot"><div><small>CAMERA</small><b>LAPTOP / USB / DROIDCAM</b></div><div><small>CALIBRATION</small><b id="calibrationReadout">5-POINT PROFILE</b></div><div><small>PROCESSING</small><b>LOCAL ONLY</b></div></div></div>
+          <div class="floating-metric"><span class="metric-ring">◎</span><span><b>Touchless control</b><small>Camera → Laser → Screen</small></span></div>
+        </div>
+      </section>
+
+      <section class="page-width status-grid" aria-label="System readiness">
+        <article class="status-card"><div class="status-card-icon">◉</div><div><small>DESKTOP BRIDGE</small><b id="portalStatus">Online</b><span>Cloud website and account service</span></div><span class="status-indicator green"></span></article>
+        <article class="status-card"><div class="status-card-icon">◎</div><div><small>CAMERA PROFILE</small><b id="cameraProfileStatus">Saved</b><span>Built-in / USB / DroidCam</span></div><span class="status-indicator green"></span></article>
+        <article class="status-card"><div class="status-card-icon">⌖</div><div><small>CALIBRATION</small><b id="calibrationStatus">5 reference points</b><span>Fresh calibration runs on desktop</span></div><span class="status-indicator amber"></span></article>
+        <article class="status-card"><div class="status-card-icon">▣</div><div><small>DESKTOP ENGINE</small><b id="engineStatus">Ready to launch</b><span>Python / OpenCV / Tkinter</span><span class="status-indicator" id="engineDot"></span></div></article>
+      </section>
+
+      <section class="page-width content-section" id="capabilities">
+        <div class="section-top"><div><div class="eyebrow"><span class="eyebrow-line"></span> THE DESKTOP ENGINE</div><h2>Everything you need<br><em>to create without touch.</em></h2></div><p>Your browser is the control centre. Your existing Windows app performs camera capture, laser detection, screen mapping and Smart Board actions.</p></div>
+        <div class="capability-grid">
+          <article class="capability-card"><span>01 / CAMERA</span><div class="cap-icon">◉</div><h3>Multiple camera sources</h3><p>Select the built-in laptop camera, a connected USB webcam or DroidCam. Preview and confirm the exact feed before calibration.</p></article>
+          <article class="capability-card"><span>02 / VISION</span><div class="cap-icon">⌖</div><h3>Laser spot tracking</h3><p>Retains the supplied OpenCV laser-candidate pipeline in <code>air_writer.py</code>.</p></article>
+          <article class="capability-card"><span>03 / MAPPING</span><div class="cap-icon">▦</div><h3>Five-point calibration</h3><p>Captures a fresh background and calculates the display mapping before cursor control.</p></article>
+          <article class="capability-card"><span>04 / GESTURES</span><div class="cap-icon">⌁</div><h3>Laser + hand gestures</h3><p>Separate launch modes for laser control and webcam hand control, with one index-tip pointer, pinch drawing, V-sign pan, thumb-middle zoom and a temporal-stabilised gesture menu.</p></article>
+          <article class="capability-card"><span>05 / SMART BOARD</span><div class="cap-icon">✎</div><h3>Write, draw and edit</h3><p>Pencil, eraser, colours, shapes, pages, undo, redo, scrolling and swipe typing.</p></article>
+          <article class="capability-card"><span>06 / SMART WRITE</span><div class="cap-icon">Aa</div><h3>Handwriting to text</h3><p>OCR features are available when the optional Tesseract desktop installation is present.</p></article>
+        </div>
+        <div class="notice-line"><span>i</span><p><b>Important:</b> The laser animation on this page is a visual interface effect. The real camera feed, detection, calibration and writing run in the separate Windows desktop window launched by the button above.</p></div>
+      </section>
+
+      <section class="page-width gesture-section" id="gestures">
+        <div class="section-top"><div><div class="eyebrow"><span class="eyebrow-line"></span> AIRWRITE GESTURE LANGUAGE</div><h2>Control the board<br><em>with one hand.</em></h2></div><p>Inspired by modern camera-first spatial drawing workflows such as AirVA, adapted to AIRWRITE’s Windows Smart Board and existing laser tools. Use the gesture launcher to open the laptop or USB webcam.</p></div>
+        <div class="gesture-grid">
+          <article class="gesture-card"><span class="gesture-glyph">☝</span><b>Index pointer</b><small>Move the cursor and hover over tools.</small></article>
+          <article class="gesture-card"><span class="gesture-glyph">🤏</span><b>Thumb + index pinch</b><small>Draw in Pen / Smart Write; pinch and release to click or select. Other fingers can stay naturally curled.</small></article>
+          <article class="gesture-card"><span class="gesture-glyph">✌</span><b>V-sign pan</b><small>Raise index and middle fingers to pan the board canvas.</small></article>
+          <article class="gesture-card"><span class="gesture-glyph">↕</span><b>Thumb + middle pinch</b><small>Move your hand up to zoom in and down to zoom out. Keep the index away from the thumb.</small></article>
+          <article class="gesture-card"><span class="gesture-glyph">☰</span><b>Three fingers raised</b><small>Hold to open the radial tools menu; point to an option, wait for its highlight, then pinch and release to choose.</small></article>
+          <article class="gesture-card"><span class="gesture-glyph">◎</span><b>Primary fingertip tracking</b><small>One stable hand is tracked; only the index fingertip is the pointer. Other fingertips are gesture landmarks only; no palm-state gate is used.</small></article>
+        </div>
+        <div class="gesture-operations"><div><b>One gesture menu. The complete Smart Board.</b><p>After the three-finger menu opens, point to an option, let it highlight, then pinch and release. Only the index fingertip moves the pointer; other fingertips classify gestures. Pan and menu poses need agreement in 3 of the latest 5 frames. The hand menu can reach Cursor, Drag, Pen, Smart Write, Swipe Type, Eraser, Shapes, Scroll, color and brush size, page navigation, Undo, Redo, Save PNG, Export PDF, Clear page and Close Board.</p></div><span class="gesture-menu-mark">AIR<br>TOOLS</span></div>
+        <div class="privacy-callout"><span>◉</span><p><b>Camera privacy by design.</b> The hand-gesture button automatically prefers the laptop built-in webcam in the local desktop app. The laser mode keeps its independent DroidCam/USB camera profile. Hand landmarks are processed locally; the website does not upload or record camera frames. Hand mapping is separate for each chosen camera.</p></div>
+      </section>
+
+      <section class="business-band" id="business"><div class="page-width business-inner"><div><div class="eyebrow"><span class="eyebrow-line"></span> AIRWRITE FOR TEAMS</div><h2>From a prototype<br><em>to a practical product.</em></h2><p>Explore education pilots, classroom deployments and technology partnerships. Pilot enquiries are saved securely to the AIRWRITE cloud database.</p></div><div class="business-cards"><article><span>01 / EDUCATION</span><h3>Classroom pilot</h3><p>Evaluate writing, teaching and presentation workflows.</p><b>Schools · Colleges</b></article><article><span>02 / WORKPLACE</span><h3>Meeting spaces</h3><p>Assess touchless screen control for training and demos.</p><b>Teams · Training</b></article><article><span>03 / PARTNERS</span><h3>Technology partners</h3><p>Explore hardware kits, integration and deployment.</p><b>Resellers · Integrators</b></article></div></div></section>
+
+      <section class="page-width plans-section" id="plans">
+        <div class="section-top"><div><div class="eyebrow"><span class="eyebrow-line"></span> AIRWRITE DEPLOYMENT MODEL</div><h2>Start with a pilot.<br><em>Scale with confidence.</em></h2></div><p>These are proposed deployment paths for evaluating the product. Pricing is provided after the camera, screen and installation requirements are reviewed; no unverified price is shown.</p></div>
+        <div class="plans-grid">
+          <article class="plan-card"><span class="plan-index">01 / INDIVIDUAL</span><h3>Airwrite Starter</h3><p class="plan-audience">For personal demos, educators and creators.</p><ul><li>Single Windows workstation</li><li>Laser and camera setup guidance</li><li>Core cursor and Smart Board workflow</li><li>Self-guided evaluation</li></ul><a class="plan-link" href="#pilot">Request a starter demo <b>↗</b></a></article>
+          <article class="plan-card plan-featured"><span class="plan-index">02 / EDUCATION</span><div class="plan-ribbon">FIRST PILOT FOCUS</div><h3>Airwrite Classroom</h3><p class="plan-audience">For schools, colleges and coaching centres.</p><ul><li>One-room classroom evaluation</li><li>Camera placement and calibration support</li><li>Teacher onboarding session</li><li>Feedback and pilot review</li></ul><a class="plan-link" href="#pilot">Plan a classroom pilot <b>↗</b></a></article>
+          <article class="plan-card"><span class="plan-index">03 / INSTITUTION</span><h3>Airwrite Campus</h3><p class="plan-audience">For multi-room and enterprise deployments.</p><ul><li>Multi-room discovery and rollout plan</li><li>Installation and training scope</li><li>Support and update requirements</li><li>Partner integration discussion</li></ul><a class="plan-link" href="#pilot">Discuss an institutional plan <b>↗</b></a></article>
+        </div>
+      </section>
+
+      <section class="page-width enquiry-section" id="pilot"><div class="section-top"><div><div class="eyebrow"><span class="eyebrow-line"></span> PILOT ENQUIRY</div><h2>Bring AIRWRITE<br><em>into your space.</em></h2></div><p>Complete the details below. This form saves a record in the secure AIRWRITE cloud database, visible to the owner account in the Owner Dashboard.</p></div>
+        <form id="pilotForm" class="pilot-form"><div class="form-row"><div><label for="pilotName">Full name *</label><input id="pilotName" name="name" required></div><div><label for="pilotEmail">Email *</label><input id="pilotEmail" name="email" type="email" required></div></div><div class="form-row"><div><label for="pilotOrg">Organisation *</label><input id="pilotOrg" name="organisation" required></div><div><label for="pilotRole">Your role *</label><select id="pilotRole" name="role" required><option value="">Choose role</option><option>Teacher / faculty</option><option>School or college administrator</option><option>Business / training manager</option><option>Technology partner</option><option>Student / researcher</option><option>Other</option></select></div></div><div class="form-row"><div><label for="pilotCity">City *</label><input id="pilotCity" name="city" required></div><div><label for="pilotCountry">Country *</label><input id="pilotCountry" name="country" value="India" required></div></div><div class="form-row"><div><label for="pilotType">Organisation type *</label><select id="pilotType" name="organisation_type" required><option value="">Select type</option><option>School</option><option>College / university</option><option>Coaching / training centre</option><option>Company / workplace</option><option>Research institution</option><option>Other</option></select></div><div><label for="pilotSize">Potential deployment size *</label><select id="pilotSize" name="deployment_size" required><option value="">Select size</option><option>1 room / 1 device</option><option>2–5 rooms</option><option>6–20 rooms</option><option>More than 20 rooms</option><option>Not yet decided</option></select></div></div><label for="pilotSetup">Current display / computer setup *</label><select id="pilotSetup" name="current_setup" required><option value="">Select setup</option><option>Projector + Windows laptop / PC</option><option>TV / monitor + Windows laptop / PC</option><option>Interactive display / smart board</option><option>Not installed yet</option><option>Other / unsure</option></select><label for="pilotInterest">What would you like to evaluate? *</label><select id="pilotInterest" name="interest" required><option value="">Choose an area</option><option>Teaching and classroom writing</option><option>Presentations and meetings</option><option>Touchless cursor control</option><option>Smart Write / OCR / swipe typing</option><option>Hardware / distribution partnership</option><option>Research / accessibility evaluation</option></select><label for="pilotMessage">Tell us about your use case *</label><textarea id="pilotMessage" name="message" rows="4" required maxlength="5000" placeholder="Describe your room, display, camera and intended workflow."></textarea><button class="button button-primary" type="submit">Save pilot enquiry <b>↗</b></button><p class="form-hint" id="pilotMessageStatus">Submissions are stored securely and appear in the Owner Dashboard.</p></form>
+      </section>
+    </main>
+    <section class="contact-band" id="contact"><div class="page-width contact-inner"><div><div class="eyebrow"><span class="eyebrow-line"></span> CONTACT / PRODUCT ENQUIRIES</div><h2>Let’s bring AIRWRITE<br><em>into your space.</em></h2><p>For product demonstrations, education pilots and collaboration enquiries.</p></div><div class="contact-card"><span class="contact-avatar">VV</span><div><small>PRODUCT CONTACT</small><b>Vishnu Vardhan</b><a href="tel:+917013080889">+91 70130 80889</a></div><a class="contact-call" href="tel:+917013080889" aria-label="Call Vishnu Vardhan">↗</a></div></div></section>
+    <footer class="app-footer"><div class="page-width"><a class="brand" href="#workspaceHome"><span class="brand-glyph"><i></i><i></i><i></i></span><b>AIRWRITE</b></a><span>Touchless interaction, thoughtfully engineered.</span><span>© <span data-year></span> AIRWRITE LOCAL STUDIO</span></div></footer>
+  </div>
+
+  <!-- Owner-only database view. -->
+  <section class="owner-view hidden" id="ownerView">
+    <header class="app-header owner-header"><a class="brand" href="#"><span class="brand-glyph"><i></i><i></i><i></i></span><b>AIRWRITE</b><span class="brand-edition">OWNER CONSOLE</span></a><button class="button button-secondary" id="backToWorkspace" type="button">← Back to workspace</button></header>
+    <main class="page-width owner-main"><div class="eyebrow"><span class="eyebrow-line"></span> PRIVATE OWNER AREA</div><h1>Registration<br><em>overview.</em></h1><p class="owner-intro">View account registrations and pilot enquiries saved in the secure AIRWRITE cloud database.</p><div class="owner-stats"><article><small>REGISTERED USERS</small><b id="registeredCount">—</b></article><article><small>PILOT ENQUIRIES</small><b id="enquiryCount">—</b></article><article><small>DATABASE</small><b>CLOUD</b></article></div><div class="owner-toolbar"><div class="owner-tabs"><button class="owner-tab active" id="usersTab" type="button">Registrations</button><button class="owner-tab" id="enquiriesTab" type="button">Pilot enquiries</button></div><button class="button button-secondary" id="refreshAdmin" type="button">↻ Refresh</button><a class="button button-primary export-button" href="/api/admin/export.csv">Export registrations CSV ↗</a></div><div class="table-wrap"><table><thead id="adminHead"></thead><tbody id="adminBody"><tr><td>Loading owner data…</td></tr></tbody></table></div><p class="owner-footnote">Passwords are never displayed. They are stored as salted PBKDF2 hashes. Never share your owner password or database credentials.</p></main>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+backend=DSHOW
+index=1

@@ -1,0 +1,38 @@
+AIRWRITE — CAMERA AND HAND-GESTURE QUICK GUIDE
+=============================================
+
+FIRST-TIME LAUNCH
+1. Double-click START_AIRWRITE.bat.
+2. Register or log in on the local AIRWRITE portal.
+3. Choose Start Laser Writer or Start Hand Gesture Studio.
+4. Laser mode keeps its existing DroidCam / USB profile. Hand mode prefers the built-in laptop webcam and opens a live local camera feed. If Windows cannot identify the built-in camera confidently, select the correct live preview.
+
+USING A PURCHASED USB WEBCAM
+1. Plug the USB webcam into the laptop before starting AIRWRITE. A standard UVC webcam with a Windows driver is recommended.
+2. If automatic selection is ambiguous, use Refresh devices or Scan & preview all cameras.
+3. Select the actual live feed and confirm it. Camera indices can differ between Windows backends, so use the image rather than assuming camera index 0.
+
+LASER CALIBRATION
+1. After camera confirmation, keep the laser OFF during the 4-second warm-up and 30-frame background capture.
+2. The laser calibration is full-screen and uses five targets. Keep the laser spot steady on the current target for one continuous second. The target advances only after the detector has fresh stable samples for the full second. If the spot moves or is lost, the one-second stability count restarts.
+3. The separate warm-up/background capture happens before the target sequence and takes several seconds.
+4. After successful calibration, the full-screen Laser Smart Board opens automatically.
+
+HAND GESTURE ACADEMY — NO CALIBRATION
+1. Choose Start Hand Gesture Studio. The built-in laptop camera is opened automatically when Windows identifies it. This mode does not load or ask for a five-point hand calibration.
+2. The Academy shows the live camera on the right and gives one instruction at a time. Step 1 recognises one visible hand in any natural pose and saves only local setup metadata (camera name and handedness hint; no image/video/landmark frames).
+3. Follow the lessons: (a) index finger pointer, (b) thumb-index pinch to draw, (c) V-sign to pan, (d) thumb-middle pinch to zoom, (e) three raised fingers to open the tools menu. Hold each pose steadily until AIRWRITE confirms it and advances.
+4. After the lessons, the Hand Smart Board opens. Its drawing canvas is on the left; the live mirrored laptop-camera view and gesture guide stay visible on the right.
+5. Move your index finger to position the pointer. Thumb-index pinch draws when a drawing tool is selected. Release the pinch to finish. V-sign pans. Thumb-middle pinch zooms. Three raised fingers opens the tools menu; point at an option and pinch-release to select.
+
+GESTURE / PRIVACY NOTES
+- MediaPipe detects one primary hand and 21 landmarks. The index fingertip is the only pointer. Other fingertips classify gestures.
+- No palm-open / palm-closed or palm-facing-camera state is required.
+- Camera frames are processed locally. No hand video is sent to the AIRWRITE portal.
+- Stable lighting and a clear, unobstructed hand view improve detection. Keep the hand fully inside the visible camera area.
+
+DEPENDENCIES / LIMITS
+- Windows 10/11, Python 3.12 64-bit and internet for first-time dependency installation.
+- MediaPipe Hands is in requirements.txt. Tesseract OCR needs a separate Windows installation for OCR features.
+- best.pt was not present in the supplied archive; OpenCV laser detection remains the active path without the optional YOLO verifier.
+- Actual camera, laser, calibration, gesture accuracy and cursor behaviour require physical tests on the target laptop.

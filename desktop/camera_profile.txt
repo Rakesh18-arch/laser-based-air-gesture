@@ -1,0 +1,5 @@
+backend=MSMF
+index=0
+name=DroidCam Video
+kind=DroidCam phone camera
+confirmed=no

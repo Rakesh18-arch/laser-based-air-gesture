@@ -1,0 +1,2 @@
+# Replace YOUR-RENDER-SERVICE with the actual Render service hostname.
+/api/*  https://YOUR-RENDER-SERVICE.onrender.com/api/:splat  200!
